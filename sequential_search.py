@@ -20,6 +20,6 @@ while True:
     if k >= 0: #key에 레코드가 있는 경우
         print(f"{key}의 레코드 : {data[k]}")
     else: #key에 레코드가 없는 경우
-        print(f"{key}가 data에 없습니다.")
+        print(f"{key}은(는) data에 없습니다.")
         break #없는 경우에는 반복문 종
 
